@@ -1,0 +1,98 @@
+body{
+    background-color: black;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 11.6vw;
+    font-weight: 500;
+    margin: 0;
+}
+
+.section-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.section-row__col3{
+    display: flex;
+    flex-direction: column;
+    width: 33.33%;
+    padding: 0 1vw 0 1vw;
+}
+
+.section-row__col2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 0 1vw 0 1vw;
+}
+
+picture img {
+    width: 33vw;
+}
+
+.section-row__col__social{
+    display: flex;
+    flex-direction: column;
+    margin: 15vw 0 0 0;
+}
+
+.section-row__col__social__link {
+    font-size: 1.5vw;
+    font-weight: lighter;
+    margin: 0 0 1vw 0;
+    text-decoration: none;
+    color: white;
+}
+
+.section-row__col__text {
+    font-size: 1.5vw;
+    font-weight: lighter;
+    margin: 0 0 2vw 0;
+}
+
+.section-row__col-h2 {
+    font-size: 5vw;
+    font-weight: 500;
+    margin: 5vw 0 2vw 0;
+}
+
+.section-row__col2-text-p {
+    font-size: 1.5vw;
+    font-weight: lighter;
+    margin: 0 10vw 2vw 0;
+}
+
+.section-row__col2-text-h3 {
+    font-size: 1.5vw;
+    font-weight: 500;
+    margin: 0 0 0 0;
+}
+
+.grey-text{
+    opacity: 50%;
+}
+
+.section-row__inner-box{
+    display: block;
+    padding: 0 1vw 0 1vw;
+}
+
+h2.section-row__col-h2.h2-courses {
+    margin: 5vw 0 2vw 1vw;
+}
+
+.section-row__inner-box-flex{
+    display: flex;
+}
+
+section.section-row.courses-row {
+    display: block;
+}
+
+.section-row__inner-box-block{
+    display: flex;
+}
