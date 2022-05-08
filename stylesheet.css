@@ -96,3 +96,13 @@ section.section-row.courses-row {
 .section-row__inner-box-block{
     display: flex;
 }
+
+img.section-row__col3-profile-pic {
+    filter: grayscale(1);
+    transition: 0.5s;
+}
+
+img.section-row__col3-profile-pic:hover {
+    filter: grayscale(0);
+    transition: 0.5s;
+}
